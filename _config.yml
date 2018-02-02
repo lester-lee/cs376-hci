@@ -1,0 +1,14 @@
+name: Lester Lee & HCI
+markdown: kramdown
+baseurl: "/cs376-hci"
+permalink: pretty
+
+sass:
+  style: :expanded
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
