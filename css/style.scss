@@ -1,24 +1,58 @@
 ---
 ---
+
+// NUMBERS
+$header-width: 200px;
+$posts-width: 500px;
+$nav-width: 50px;
+$top-bar-height: 30px;
+
+// COLOR SCHEME
+$background-color: #FBFEF9;
+$main-color: #0C6291;
+$secondary-color: #FF765E;
+$accent-color: #51AEFF;
+$accent-hover-color: #DB6551;
+$text-color: #110B11;
+
+// FONTS
+$heading-font: 'Merriweather';
+$body-font: 'Montserrat';
+
+
+*{
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Lora';
-  color: #2b3339;
-  overflow-x: hidden;
+  font-family: $body-font;
+  color: $text-color;
   margin: 0;
 }
 body::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
+  background-color: $accent-color;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #577754;
+  background-color: $main-color;
 }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Crimson Text';
+  font-family: $heading-font;
   margin: 0;
 }
 
-h2 {
-  text-align: center;
+h1 {
+  font-size: 1.7em;
+}
+
+.top-bar{
+  background: $main-color;
+  width: 100%;
+  height: $top-bar-height;
+  position: fixed;
+  top: 0;
+  z-index: 99;
 }
 
 ul {
@@ -27,49 +61,69 @@ ul {
   padding-left: 10px;
 }
 
-.container {
-  box-sizing: border-box;
-  padding: 15px;
-  margin: 10px auto;
-}
-
-nav {
-  border-bottom: 2px solid #577754;
-  li {
-    display: inline-block;
-    margin: 0 5px;
-  }
-}
-
 a {
   text-decoration: none;
-  color: #577754;
-  :hover{
-    color: #43a047;
+  color: $accent-color;
+  &:hover{
+    color: $accent-hover-color;
   }
 }
 
-article {
-  box-sizing: border-box;
-  margin: 15px auto;
-  color: #333;
-  padding: 30px 15px;
-  background: #f2f2f2;
-  min-height: calc(100vh - 180px);
-}
 p {
 	text-indent: 2em;
 }
 
-footer {
-  text-align: center;
-  color: #555;
-  font-size: .8em;  
+.posts {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  margin-top: $top-bar-height;
+  flex-direction: column;
+  padding: 10px;
+  img {
+    display: none;
+  }
+  ul {
+    display: flex;
+    li {
+      margin: 0px 5px;
+    }
+  }
 }
 
 @media (min-width: 700px) {
-  .container {
-    width: 700px;
+  .posts {
+    width: $posts-width;
+    margin-left: calc(#{$header-width} + 20vw);
+    margin-top: $top-bar-height;
+    padding-top: 80px;
+  }
+  header {
+    position: fixed;
+    height: 95vh;
+    width: $header-width;
+    left: 18vw;
+    padding: 10vh 0;
+    text-align: center;
+    color: $secondary-color;
+    img {
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin: 10px auto;
+    }
+    ul{
+      flex-flow: column;
+    }
+  }
+  #copyright {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    font-size: .7em;
+    width: 100%;
   }
 	article{
 		padding: 30px 50px;
