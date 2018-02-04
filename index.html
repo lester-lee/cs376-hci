@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+<article>
+<h3>{{ post.title }}</h3>
+{% if post.subtitle %}
+<h4>{{ post.subtitle }}</h4>
+{% endif %}
+<hr />
+{{ post.content }}
+</article>
+{% endfor %}

@@ -11,7 +11,7 @@ $top-bar-height: 30px;
 $background-color: #FBFEF9;
 $main-color: #0C6291;
 $secondary-color: #FF765E;
-$accent-color: #51AEFF;
+$accent-color: #4c95d4;
 $accent-hover-color: #DB6551;
 $text-color: #110B11;
 
@@ -58,7 +58,6 @@ h1 {
 ul {
   list-style-type: none;
   padding: 0;
-  padding-left: 10px;
 }
 
 a {
@@ -71,6 +70,9 @@ a {
 
 p {
 	text-indent: 2em;
+  a {
+    color: $secondary-color;
+  }
 }
 
 .posts {
@@ -99,6 +101,10 @@ header {
     margin-left: calc(#{$header-width} + 20vw);
     margin-top: $top-bar-height;
     padding-top: 80px;
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
   }
   header {
     position: fixed;
@@ -107,7 +113,7 @@ header {
     left: 18vw;
     padding: 10vh 0;
     text-align: center;
-    color: $secondary-color;
+    color: $text-color;
     img {
       display: block;
       width: 100px;
@@ -117,6 +123,9 @@ header {
     ul{
       flex-flow: column;
     }
+    p{
+      text-indent: 0;
+    }
   }
   #copyright {
     position: absolute;
@@ -125,7 +134,4 @@ header {
     font-size: .7em;
     width: 100%;
   }
-	article{
-		padding: 30px 50px;
-	}
 }
