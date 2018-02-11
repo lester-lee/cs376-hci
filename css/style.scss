@@ -70,7 +70,11 @@ a {
 }
 
 p {
-	text-indent: 2em;
+  line-height: 1.35;
+  .caption{
+    font-size: .8em;
+    font-style: italic;
+  }
   a {
     color: $secondary-color;
   }
