@@ -6,7 +6,7 @@ subtitle: that's pretty cool
 #### The Motivation
 The sun is hot against your skin, but the breeze that brushes by and the susurration of leaves puts a smile on your face as you lay back and listen to the sound of running water against rock. You hear a birdcall in the distance, and you wonder: what species of birds are in the area? Where does the river in front of you start? Where would be a good place to eat that sandwich you brought? Who else has been here and wondered the same thing?
 
-![Scenic River](/images/project_proposal/river.jpg)
+![Scenic River]({{ site.baseurl }}/images/project_proposal/river.jpg)
 *Photo by [Bob Wick](https://www.flickr.com/photos/mypubliclands/36254153540). Imagine sitting by this river. What questions arise?*
 
 The world around us is full of information, but we might not necessarily have the knowledge necessary to parse it or understand everything that's happening -- but that doesn't mean we aren't curious about it. Sometimes, though, the knowledge we do have about something we're interested in is so sparse that we wouldn't even know where to start. Trying to search "what is that bird that screeches loudly" might be fruitful, but wouldn't it be so much easier to give the exact sound you heard to an ornithologist?
@@ -21,4 +21,5 @@ The project I envision centers around location-based information and curiosity s
 
 The project will gradually learn what types of things you are interested in learning about, and begin suggesting  similar things for you to check out. It will be a learning experience that is personally driven. ■
 
-[1]: [The Psychology of Curiosity - George Loewenstein](https://www.cmu.edu/dietrich/sds/docs/loewenstein/PsychofCuriosity.pdf)
+
+1: [The Psychology of Curiosity - George Loewenstein](https://www.cmu.edu/dietrich/sds/docs/loewenstein/PsychofCuriosity.pdf)
