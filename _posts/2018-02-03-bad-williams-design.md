@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Bad Williams Design
-subtitle: An example of bad design on Williams College's website
 ---
 Twice a year, every on-campus student at Williams college will inevitably go to the [catalog](https://catalog.williams.edu/) as they try to figure out what exactly they will be doing with their lives. Recently, the catalog interface was updated from this:
 ![Old Catalog]({{ site.baseurl }}/images/ucd/old-catalog.png)

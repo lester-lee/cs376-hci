@@ -2,14 +2,9 @@ name: Lester Lee & HCI
 markdown: kramdown
 baseurl: "/cs376-hci"
 permalink: pretty
-paginate: 10
-excerpt_length: 150
 
 sass:
   style: :expanded
-
-plugins:
-  - jekyll-paginate
 
 exclude:
   - Gemfile

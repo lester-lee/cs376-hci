@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Good Williams Design
-subtitle: An example of good design on Williams College's website
 ---
 While the [Eats4Ephs](https://dining.williams.edu/eats4ephs/) page is wonderful for figuring out what is being offered at each dining hall, it only shows the current day's meals, and offers no information about previous or future meals. If you wanted to know, for example, what Mission had for lunch yesterday, or what Driscoll will have for dinner tomorrow, the [Menus & Nutrition](https://dining.williams.edu/menus-nutrition/) page is a good starting point. It offers a list of all venues, as well as links to the menus for each one.
 ![Menus & Nutrition Page]({{ site.baseurl }}/images/ucd/menus.png)

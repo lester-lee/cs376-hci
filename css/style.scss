@@ -17,8 +17,8 @@ $accent-hover-color: #DB6551;
 $text-color: #110B11;
 
 // FONTS
-$heading-font: 'Merriweather';
-$body-font: 'Montserrat';
+$heading-font: 'Spectral SC';
+$body-font: 'Roboto Slab';
 
 
 *{
@@ -70,7 +70,8 @@ a {
 }
 
 p {
-  line-height: 1.35;
+  line-height: 1.5;
+  font-size: 15px;
   .caption{
     font-size: .8em;
     font-style: italic;
