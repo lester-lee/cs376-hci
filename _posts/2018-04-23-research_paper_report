@@ -1,0 +1,11 @@
+---
+layout: post
+title: Research Paper Report
+---
+I looked at [this paper](https://dl.acm.org/citation.cfm?id=1055101).
+
+This paper examines the effects of resource competition on mobile interaction by observing  participants as they used a mobile browser to retrieve a piece of information from a given website. This task was performed in a variety of environments, such as walking down a busy street or in a laboratory. Oulasvirta et al. find that participants switch their attention to the environment more and give pay less continuous attention to the mobile device when the environment demands more cognitive resources. Their results suggest that people prioritize mobility tasks over HCI tasks, and when not pressured by time, will push the HCI task even further down so that more attention may be allocated to the environment.
+
+I do believe their main points, though I am not sure about the extent to which their conclusions can be extended. Oulasvirta et al. are transparent about the limitations of their research. Many of the studies were performed in situations where laboratory-like control is impossible, such as a busy street or on a bus. Furthermore, they were looking only at mobile Web searches, but these results may vary depending on the HCI task. However, their results support the intuition that resource competition constrains mobile interaction. 
+
+Pin is a mobile app that is meant to be used outdoors, and after reading this paper, I realize the importance of researching the patterns of outdoor user-phone interaction, or more specifically, how quickly tasks must be able to be performed. Our design should take more into account the observations that users use their phones in short bursts and that their attention is often diverted away from the phone. Our current design for Pin does allow users to quickly create a Pin, and there are options for users to save drafts so that they may return to the task at a later time when they are presumably less distracted. This allows users to continue to prioritize environmental and mobility tasks. However, responding to a Pin is much more difficult in outdoor environments, since users must stay focused on the screen to find and read a Pin that they want to respond to.
