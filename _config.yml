@@ -2,6 +2,7 @@ name: Lester Lee & HCI
 markdown: kramdown
 baseurl: "/cs376-hci"
 permalink: pretty
+future: true
 
 sass:
   style: :expanded
